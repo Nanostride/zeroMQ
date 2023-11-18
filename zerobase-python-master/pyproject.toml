@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "pyzmq>=25.0.0", "attrs>=22.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zerobase"
+version = "0.6.0"
+authors = [
+  { name="Augusto Mota Pinheiro", email="augustomp55@gmail.com" },
+]
+description = "A communications framework based on ZeroMQ for multiprocessing systems!"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPLv3 License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Nanostride/zerobase-python"
+"Bug Tracker" = "https://github.com/Nanostride/zerobase-python/issues"
